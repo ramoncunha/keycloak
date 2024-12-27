@@ -1,1 +1,2 @@
-.docker/dbdata
+keycloak/.docker/dbdata/*
+authentication/node_modules/*
