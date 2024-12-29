@@ -8,3 +8,9 @@ services:
       - 3000:3000
     volumes:
       - .:/home/node/app
+    networks:
+    - security-network
+
+networks:
+  security-network:
+    external: true
